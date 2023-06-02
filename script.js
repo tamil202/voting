@@ -26,10 +26,12 @@ function validate() {
     if (username == Uname) {
         if (password == password1) {
             window.location = "./vote.html";
+        }else{
+          alert("Validation wrong!");
+          return true;
         }
     }
     
 
-  alert("Validation wrong!");
-      return true;
+  
 }
