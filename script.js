@@ -30,7 +30,7 @@ function validate() {
     }
   else{
           alert("Validation wrong!");
-          return true;
+          
         }
     
 
