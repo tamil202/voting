@@ -25,7 +25,7 @@ function validate() {
 
     if (username == Uname) {
         if (password == password1) {
-            window.location = "http://127.0.0.1:5500/vote.html";
+            window.location = "./vote.html";
         }
     }
     
