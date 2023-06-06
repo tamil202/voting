@@ -21,16 +21,13 @@ function validate() {
   //
 
   let Uname = "batch8";
-    let password1 = "none";
+    let password1 = "parties1";
 
     if (username == Uname) {
         if (password == password1) {
             window.location = "./vote.html";
         }
-      else{
-        alert("password or username wrong")
-        return fasle
-      }
+
     }
 
     
