@@ -28,10 +28,7 @@ function validate() {
             window.location = "./vote.html";
         }
     }
-  else{
-          alert("Validation wrong!");
-          
-        }
+
     
 
   
