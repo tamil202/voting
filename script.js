@@ -1,7 +1,7 @@
 function validate() {
   var username = document.getElementById("userName").value;
   var password = document.getElementById("password").value;
-    window.location = "./vote.html";
+
 
   // Validate username
   if (!username) {
@@ -26,7 +26,7 @@ function validate() {
 
     if (username == Uname) {
         if (password == password1) {
-          
+              window.location = "./vote.html";
         }
 
     }
